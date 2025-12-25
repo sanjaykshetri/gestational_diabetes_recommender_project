@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+data/raw/private_*
+data/raw/*glucose*
+*.db
+*.sqlite
+
+# Sensitive information
+.env
+.env.local
+config/secrets.yaml
+*_private.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model artifacts (exclude from git, use DVC or similar for large files)
+models/*.pkl
+models/*.joblib
+app/model.pkl
+app/preprocessor.pkl
+
+# Reports & Figures (keep template structure, ignore generated outputs)
+reports/*.pdf
+reports/*.docx
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.svg
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
