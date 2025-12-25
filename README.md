@@ -1,6 +1,7 @@
 # Gestational Diabetes Meal Recommender
 
-**Springboard Data Science Capstone Project**
+**Springboard Data Science Capstone Project**  
+**Author:** Sanjay Kumar Chhetri
 
 ## Project Overview
 

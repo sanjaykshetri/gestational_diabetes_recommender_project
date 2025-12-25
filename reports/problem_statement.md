@@ -1,5 +1,8 @@
 # Problem Statement: Gestational Diabetes Meal Risk Predictor
 
+**Author:** Sanjay Kumar Chhetri  
+**Springboard Data Science Capstone Project**
+
 ## 1. Problem Identification
 
 ### Background and Context
